@@ -12,8 +12,8 @@ export const styles = StyleSheet.create({
   },
   sheikhu: {
     color: 'white',
-    fontSize: 40,
-    fontWeight: '700',
+    fontSize: 45,
+    fontWeight: '900',
     textAlign: 'center',
   },
   loginText: {

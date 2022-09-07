@@ -2,10 +2,11 @@
 import { View, Text } from 'react-native'
 import React from 'react'
 import Login from './src/screens/login/Login'
+import Navigation from './src/navigation/Navigation'
 
 export default function App() {
   return (
-    <Login />
+    <Navigation />
   )
 }
 
