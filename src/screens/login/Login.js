@@ -36,17 +36,17 @@ export default function Login() {
           />
         </TouchableOpacity>
 
-        <TouchableOpacity onPress={() => navigation.navigate('LoginScreen')}>
+        <TouchableOpacity onPress={() => navigation.navigate('Home')}>
           <Text style={styles.BtnLogin}>Login with email</Text>
         </TouchableOpacity>
       </View>
       <View style={styles.loginFooter}>
         <View
           style={{
-            display: 'flex',
-            flexDirection: 'row',
-            alignItems: 'center',
-            justifyContent: 'space-around',
+            display:'flex',
+            flexDirection:'row',
+            alignItems:'center',
+            justifyContent:'space-around',
             marginTop: '30%',
           }}>
           <View
